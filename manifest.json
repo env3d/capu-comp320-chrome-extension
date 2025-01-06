@@ -4,13 +4,10 @@
   "version": "1.0",
   "description": "Extension for tracking activites in COMP320",
   "permissions": [
-    "cookies",
     "declarativeNetRequest",
     "declarativeNetRequestWithHostAccess",
     "storage",
-    "tabs",
-    "activeTab",
-    "scripting"
+    "tabs"
   ],
   "content_scripts": [
     {
